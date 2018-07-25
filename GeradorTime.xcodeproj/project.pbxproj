@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2164AD052108F861004C9F25 /* Jogadores.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2164AD042108F861004C9F25 /* Jogadores.storyboard */; };
+		2164AD072108F930004C9F25 /* JogadoresTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2164AD062108F930004C9F25 /* JogadoresTVC.swift */; };
+		2164AD092108FA01004C9F25 /* SelecionaJogadoresTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2164AD082108FA01004C9F25 /* SelecionaJogadoresTVC.swift */; };
+		217BCC4821021AEC009B1089 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217BCC4721021AEC009B1089 /* UIImage+Resize.swift */; };
 		21BEB7BD20DD394B00806A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB7BC20DD394B00806A82 /* AppDelegate.swift */; };
 		21BEB7BF20DD394B00806A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB7BE20DD394B00806A82 /* ViewController.swift */; };
 		21BEB7C220DD394B00806A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BEB7C020DD394B00806A82 /* Main.storyboard */; };
 		21BEB7C420DD394D00806A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BEB7C320DD394D00806A82 /* Assets.xcassets */; };
 		21BEB7C720DD394D00806A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BEB7C520DD394D00806A82 /* LaunchScreen.storyboard */; };
+		21BEB7CF20DD5FB600806A82 /* GeradorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB7CE20DD5FB600806A82 /* GeradorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2164AD042108F861004C9F25 /* Jogadores.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jogadores.storyboard; sourceTree = "<group>"; };
+		2164AD062108F930004C9F25 /* JogadoresTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogadoresTVC.swift; sourceTree = "<group>"; };
+		2164AD082108FA01004C9F25 /* SelecionaJogadoresTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionaJogadoresTVC.swift; sourceTree = "<group>"; };
+		217BCC4721021AEC009B1089 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
 		21BEB7B920DD394B00806A82 /* GeradorTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeradorTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BEB7BC20DD394B00806A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21BEB7BE20DD394B00806A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		21BEB7C320DD394D00806A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BEB7C620DD394D00806A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BEB7C820DD394D00806A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BEB7CE20DD5FB600806A82 /* GeradorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeradorVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				21BEB7BC20DD394B00806A82 /* AppDelegate.swift */,
 				21BEB7BE20DD394B00806A82 /* ViewController.swift */,
 				21BEB7C020DD394B00806A82 /* Main.storyboard */,
+				217BCC4721021AEC009B1089 /* UIImage+Resize.swift */,
+				21BEB7CE20DD5FB600806A82 /* GeradorVC.swift */,
+				2164AD042108F861004C9F25 /* Jogadores.storyboard */,
+				2164AD082108FA01004C9F25 /* SelecionaJogadoresTVC.swift */,
+				2164AD062108F930004C9F25 /* JogadoresTVC.swift */,
 				21BEB7C320DD394D00806A82 /* Assets.xcassets */,
 				21BEB7C520DD394D00806A82 /* LaunchScreen.storyboard */,
 				21BEB7C820DD394D00806A82 /* Info.plist */,
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21BEB7C720DD394D00806A82 /* LaunchScreen.storyboard in Resources */,
+				2164AD052108F861004C9F25 /* Jogadores.storyboard in Resources */,
 				21BEB7C420DD394D00806A82 /* Assets.xcassets in Resources */,
 				21BEB7C220DD394B00806A82 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +153,10 @@
 			files = (
 				21BEB7BF20DD394B00806A82 /* ViewController.swift in Sources */,
 				21BEB7BD20DD394B00806A82 /* AppDelegate.swift in Sources */,
+				2164AD092108FA01004C9F25 /* SelecionaJogadoresTVC.swift in Sources */,
+				217BCC4821021AEC009B1089 /* UIImage+Resize.swift in Sources */,
+				2164AD072108F930004C9F25 /* JogadoresTVC.swift in Sources */,
+				21BEB7CF20DD5FB600806A82 /* GeradorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = GeradorTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = GeradorTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
